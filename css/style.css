@@ -104,13 +104,13 @@ body {
   padding-bottom: 50px;
 }
 .header__banner--wrapper-1 {
-  background-image: url("../../images/banner.png");
+  background-image: url("./images/banner.png");
 }
 .header__banner--wrapper-2 {
-  background-image: url("../../images/latest_news_background.png");
+  background-image: url("./images/latest_news_background.png");
 }
 .header__banner--wrapper-3 {
-  background-image: url("../../images/footer__background.png");
+  background-image: url("./images/footer__background.png");
 }
 .header__title {
   font-family: "Montserrat", sans-serif;
@@ -149,14 +149,14 @@ body {
   position: relative;
 }
 .footer__map {
-  background-image: url("../../images/map.png");
+  background-image: url("./images/map.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 655px;
 }
 .footer__contacts {
-  background-image: url("../../images/footer__background.png");
+  background-image: url("./images/footer__background.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -356,7 +356,7 @@ body {
 }
 
 .news {
-  background-image: url("../../images/latest_news_background.png");
+  background-image: url("./images/latest_news_background.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
