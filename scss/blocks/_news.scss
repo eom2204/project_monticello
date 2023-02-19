@@ -1,0 +1,140 @@
+.news {
+  background-image: url("/images/latest_news_background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 150px;
+  padding-bottom: 170px;
+
+  &__sliders {
+    max-width: $max-content-width;
+    margin: 0 auto;
+  }
+
+  &__scroller {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: none;
+    background: transparent;
+
+    &--left {
+      left: -100px;
+
+      @media screen and (max-width: $desktop-start) {
+        left: -45px;
+      }
+    }
+
+    &--right {
+      right: -100px;
+
+      @media screen and (max-width: $desktop-start) {
+        right: -45px;
+      }
+    }
+  }
+
+  &__item {
+    margin: 10px;
+    font-size: 0;
+
+    &--image {
+      width: 100%;
+      height: auto;
+    }
+
+    &--content {
+      background-color: $color-white;
+      font-family: $font-primary;
+      max-width: 370px;
+      padding: 23px 20px 30px;
+      text-align: left;
+    }
+
+    &--title {
+      color: $color-gray-text;
+      font-family: $font-primary;
+      font-weight: 700;
+      font-size: 22px;
+      line-height: 27px;
+      margin-bottom: 15px;
+
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    &--description {
+      color: $color-gray-text;
+      font-family: $font-secondary;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 25px;
+      margin-bottom: 45px;
+
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    &--author {
+      display: flex;
+      justify-content: left;
+
+      @media screen and (max-width: $desktop-start) {
+        flex-direction: column;
+        gap: 20px;
+      }
+
+      &-photo {
+        border-radius: 50%;
+        display: block;
+        max-width: 60px;
+        margin-right: 20px;
+        width: 100%;
+      }
+
+      &-info {
+        font-family: $font-primary;
+        font-weight: 400;
+        position: relative;
+        white-space: nowrap;
+
+        &_wrapper {
+          position: absolute;
+          top: 50%;
+          left: 0;
+          transform: translateY(-50%);
+        }
+      }
+
+      &-name {
+        font-size: 18px;
+        line-height: 22px;
+        color: $color-gray-text;
+      }
+
+      &-date {
+        font-size: 14px;
+        line-height: 17px;
+        color: $color-blue;
+      }
+    }
+  }
+}

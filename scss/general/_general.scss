@@ -1,0 +1,10 @@
+@import './reset';
+@import './fonts';
+@import './variables';
+
+body {
+  box-sizing: border-box;
+  min-width: 320px;
+  background-color: $color-white-background;
+  color: $color-gray-text;
+}

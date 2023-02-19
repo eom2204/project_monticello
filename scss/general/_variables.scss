@@ -1,0 +1,22 @@
+//fonts
+$font-primary: 'Montserrat', sans-serif;
+$font-secondary: 'Open Sans', sans-serif;
+$font-nav: 'Source Sans Pro', sans-serif;
+
+//colors
+$color-white: #FFFFFF;
+$color-white-background: #E5E5E5;
+$color-gray-text: #2C4058;
+$color-black: #000000;
+$color-blue: #55B7FF;
+$color-violet: #7E5AFF;
+
+//width
+$max-content-width: 1170px;
+
+//breakpoints
+$desktop-start: 1024px;
+$tablet-end: $desktop-start - 1;
+$tablet-start: 850px;
+$mobile-end: $tablet-start - 1;
+$mobile-start: 600px;

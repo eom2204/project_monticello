@@ -1,0 +1,14 @@
+.main {
+
+  &__wrapper {
+    max-width: $max-content-width;
+    text-align: center;
+    margin: 0 auto;
+    padding-left: 150px;
+    padding-right: 150px;
+
+    @media screen and (max-width: $desktop-start) {
+      padding: 60px;
+    }
+  }
+}

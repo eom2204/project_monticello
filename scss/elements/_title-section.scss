@@ -1,0 +1,48 @@
+.title__section {
+  font-family: $font-primary;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 54px;
+  margin-top: 150px;
+  margin-bottom: 90px;
+  position:relative;
+
+  @media screen and (max-width: $tablet-start) {
+    margin-top: 100px;
+    margin-bottom: 70px;
+  }
+
+  &::before {
+    content: '';
+    display: block;
+    position:absolute;
+    border-top: 1px solid $color-gray-text;
+    width: 100px;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  &.title__section--news::before {
+    border-top: 1px solid $color-white;
+  }
+
+  &--projects {
+    margin-bottom: 147px;
+  }
+
+  &--news {
+    color: $color-white;
+    text-align: center;
+  }
+
+  &--gallery {
+    margin-top: 180px;
+  }
+
+  &--contacts {
+    margin-top: 90px;
+    margin-bottom: 42px;
+    text-align: center;
+  }
+}

@@ -1,0 +1,48 @@
+.footer {
+  position: relative;
+
+  &__map {
+    background-image: url("/images/map.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 655px;
+  }
+
+  &__contacts {
+    background-image: url("/images/footer__background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 203px;
+    padding-bottom: 234px;
+
+    &--wrapper {
+      max-width: 770px;
+      margin: 0 auto;
+      padding-right: 20px;
+      padding-left: 20px;
+
+      @media screen and (max-width: $mobile-start) {
+        margin-top: 150px;
+      }
+
+
+      &-flex {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 40px;
+      }
+    }
+
+    &--copyright {
+      color: $color-white;
+      font-family: $font-primary;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 17px;
+      margin-top: 40px;
+    }
+  }
+}

@@ -1,0 +1,38 @@
+.button {
+  background: $color-white-background;
+  border: 1px solid $color-gray-text;
+  color: $color-black;
+  font-family: $font-primary;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  padding-top: 16px;
+  padding-bottom: 17px;
+
+  &:hover {
+    background-color: $color-blue;
+    opacity: 0.7;
+    transform: scale(120%);
+  }
+
+
+  &__projects--content {
+    padding-left: 41px;
+    padding-right: 41px;
+  }
+
+  &__gallery {
+    padding-left: 57px;
+    padding-right: 57px;
+    text-align: center;
+  }
+
+  &__form {
+    background: $color-white;
+    font-size: 18px;
+    line-height: 27px;
+    max-width: 140px;
+    margin-left: auto;
+    padding: 11px 34px;
+  }
+}
