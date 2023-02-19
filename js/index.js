@@ -77,8 +77,8 @@ function slickSlider() {
         infinite: true,
         slidesToShow: 3,
         slidesToScroll: 1,
-        prevArrow: '<img src="../../images/scroller_left.png" alt="" class="news__scroller news__scroller--left">',
-        nextArrow: '<img src="../../images/scroller_right.png" alt="" class="news__scroller news__scroller--right">',
+        prevArrow: '<img src="./images/scroller_left.png" alt="" class="news__scroller news__scroller--left">',
+        nextArrow: '<img src="./images/scroller_right.png" alt="" class="news__scroller news__scroller--right">',
         responsive: [
             {
                 breakpoint: 850,
