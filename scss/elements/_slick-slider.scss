@@ -1,5 +1,5 @@
 .header__banner ul.slick-dots {
-  top: 50%;
+  top: 35%;
   left: 95%;
 }
 
@@ -20,7 +20,7 @@
   content: '○';
   opacity: 1;
   color: white;
-  font-size: 16px;
+  font-size: 22px;
 }
 
 .slick-dots li.slick-active button:before {
@@ -30,5 +30,9 @@
 }
 
 .header__banner  .slick-dots li {
-  margin: 5px 0;
+  margin: 16px 0;
+}
+
+.slick-dots li {
+  margin: 0 16px;
 }
